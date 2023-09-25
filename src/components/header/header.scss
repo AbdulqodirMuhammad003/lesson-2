@@ -1,0 +1,47 @@
+header .container {
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  
+    li {
+      border-right: 1px solid #ccc;
+      padding-right: 12px;
+    }
+    a {
+      text-decoration: none;
+      // color: black;
+    }
+    .home{
+      margin-right: 66px;
+    }
+  }
+  display: flex;
+  align-items: center;
+  padding: 13px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.logo-site {
+  margin-right: 63px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.changeTheme {
+  padding: 5px 30px;
+  background-color: #785288;
+  float: right;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,68 @@
+footer {
+  padding: 30px 0px;
+  background-color: rgba(0, 16, 61, 0.06);
+}
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+.socialNetworks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  img {
+    display: block;
+  }
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.navbar-footer {
+  display: flex;
+}
+.products {
+  list-style-type: none;
+  margin-right: 30px;
+
+  h3 {
+    margin-bottom: 24px;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.phoneNumbers {
+  display: flex;
+  justify-content: space-between;
+}
+.bbb {
+  margin-right: 30px;
+}
+.country {
+  margin-bottom: 20px;
+  h4 {
+    margin-bottom: 12px;
+    color: #ef7c00;
+  }
+  p {
+    margin-bottom: 12px;
+  }
+}
+.rights {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  color: #919399;
+}
